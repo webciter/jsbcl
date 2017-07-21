@@ -4,7 +4,6 @@
 <h3>Table Of Contents</h3>
 <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#download">Download</a></li>
             <li><a href="#setting-up">Setting Up</a></li>
             <li><a href="#getting-data">Getting Data</a></li>
             <li><a href="#request-json">Making a request For JSON</a></li>
@@ -24,8 +23,7 @@
 
 <p>file: <strong>public_html/js/init.js</strong></p>
         
-        <p></p>
-        <pre>
+<pre>
                 this.requires = {
                     /* debug/release - these two objects must match */
                     debug:      new Array(
@@ -38,7 +36,7 @@
 
                 },
 
-        </pre>
+ </pre>
 <h4>Release/Debug</h4>
  <p>Switching from debug to release when you have completed your project your LZMA compressed scripts should be stored in the release directory this is where the magic takes place. change this.debug to true or false depending if you are using compressed or decompressed files</p>
         
@@ -50,7 +48,7 @@
  <p>Make sure you add at least one object from each file to the if condition below, this will make sure all files have been added before the application continues. Use the || operator. NOTE: if you don't do this correctly your application will break</p>
         
 <p>file: <strong>public_html/js/init.js</strong></p>
-        <pre>
+<pre>
             
               /* check if loaded */
               this.initTimer = setInterval(function(){
@@ -64,7 +62,7 @@
                       }
                   }
               , 300);
-        </pre>
+</pre>
         
 <a name="getting-data"></a>
 <h3>Getting Data</h3>
@@ -77,9 +75,9 @@
  To make a request for a compressed JSON file store it in the arc directory, this is NOT required, JSON files MUST have the .json.lzma file extension for this to work. You can make a request using the following code assuming the file is stored in the appropriate directory or served by some dynamic means.
  </p>
         
-        <pre>
+<pre>
             window.loadJSBinary("/arc/jsonTest.json.lzma",'testJson');
-        </pre>
+</pre>
         
 <p>
 To get JSON you MUST pass the URL followed by the NAME string which you will need later to retrieve the data as an object. The data retrieved from this line for code will be inserted into the window.json object you can access this object by typing window.json.testJson.
@@ -89,18 +87,18 @@ To get JSON you MUST pass the URL followed by the NAME string which you will nee
 This JSON data will not be avaliable instantly, you must wait untill it has been loaded using the following function.
 </p>
         
-        <pre>
+<pre>
             window.jsonDone(['testJson'], window.calledWhenDone);
-        </pre>
+</pre>
         
 <p>This function accepts a Array of JSON NAME to test if available as defined previously, The second argument is a function callback which will be executed once complete for example.
 </p>
         
-        <pre>
+<pre>
                 window.calledWhenDone = function(){
                     console.log(window.json.testJson);
                 }
-        </pre>
+</pre>
        
 <p>window.json.testJson would be the JSON Object you named above, all JSON Objects you get through loadJSBinary will be added to window.json</p>
 
@@ -111,12 +109,9 @@ This JSON data will not be avaliable instantly, you must wait untill it has been
  To make a request for a TEXT file use the following code
  </p>
         
-        <pre>
+<pre>
                 window.loadText("arc/documentation.html.lzma",".doc", window.const.method.APPEND);
-        </pre>
+</pre>
         
 <p>This function accepts several parameters the first parameter is the path of the archive, a single compressed file in plain text format using .lzma extension, The second parameter is the selector used to insert the data into and the final parameter is the METHOD of insertion witch currently supports "APPEND", "PREPEND" or you can use the strings stored in window.const.method witch is optional default to "APPEND".
-        </p>
-                
-
-        
+</p>
