@@ -22,8 +22,8 @@
 
 <p>file: <strong>public_html/js/init.js</strong></p>
         
-<code>
-                this.requires = {
+<pre>
+               this.requires = {
                     /* debug/release - these two objects must match */
                     debug:      new Array(
                         "js/debug/app.js"
@@ -35,7 +35,7 @@
 
                 },
 
- </code>
+ </pre>
 <h4>Release/Debug</h4>
  <p>Switching from debug to release when you have completed your project your LZMA compressed scripts should be stored in the release directory this is where the magic takes place. change this.debug to true or false depending if you are using compressed or decompressed files</p>
         
