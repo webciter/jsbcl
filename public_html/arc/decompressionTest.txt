@@ -1,0 +1,22 @@
+<h1>JSBCL</h1>
+<hr>
+<h2>JavaScript Bootstrapped Compression Library</h2>
+<p>
+This is a simple decompression test of standard HTML compressed in LZMA Format Stored In arc/decompressionTest.txt.lzma
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eros mauris, auctor tincidunt euismod id, gravida in sem. Nunc nec dui porta, vehicula enim in, lobortis mi. Nunc semper urna et lectus cursus mattis. Integer imperdiet lectus nisl, id semper eros consequat at. Phasellus porttitor erat quis nisi fermentum sagittis. Curabitur tempor tempor mollis. Donec euismod maximus lectus vitae facilisis. Proin diam ante, commodo quis orci ac, ultrices imperdiet magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi blandit, justo ac interdum tempor, lectus felis eleifend nibh, ultrices pretium dolor odio at nunc.
+</p>
+<p>
+Vivamus scelerisque cursus dui id elementum. Suspendisse auctor nulla et magna hendrerit pellentesque. Aenean finibus felis quis nunc faucibus gravida. Donec aliquam nisl felis, sed consectetur nisl dictum vitae. Nullam mattis dictum dui pulvinar cursus. Praesent ac sapien posuere, elementum augue at, faucibus lacus. Nullam mollis suscipit lorem in interdum. Fusce at sapien molestie, pretium lectus sit amet, semper ex. Vivamus feugiat purus et sapien egestas rhoncus.
+<p>
+Nunc imperdiet varius euismod. Aenean eleifend quis ante non elementum. Vivamus aliquam lacus id sapien vestibulum vehicula. Suspendisse mi est, eleifend ac lorem nec, feugiat cursus mauris. Cras pulvinar mauris sit amet libero rhoncus, eu tincidunt diam vestibulum. Nam non purus et enim vestibulum ultricies. Aliquam non orci eu dolor imperdiet rutrum. Nam tincidunt est in ex pellentesque, non ornare ligula finibus. Donec auctor nisl sit amet purus elementum venenatis. In lobortis varius diam, a convallis erat blandit quis. Suspendisse tempor turpis vitae nisl accumsan, a volutpat lacus pulvinar.
+</p>
+<p>
+Donec scelerisque, risus quis rhoncus viverra, enim dui fringilla metus, a accumsan urna nulla at ex. Suspendisse enim lorem, venenatis a faucibus eu, iaculis in justo. Aenean egestas tempus justo eget vehicula. Pellentesque volutpat volutpat porta. Proin condimentum tincidunt ante, sed iaculis dolor varius vitae. Donec vulputate purus id tortor condimentum fermentum a sed diam. Morbi fermentum sapien quam, vitae faucibus felis condimentum sed. Vivamus blandit, dui in accumsan facilisis, eros odio finibus neque, sit amet feugiat ante nunc vel purus. Sed ut sapien aliquet, venenatis urna ac, finibus metus. Donec quam diam, fringilla eget velit ac, ultrices lacinia enim. Nulla posuere tortor ut lorem facilisis pellentesque. Morbi quis bibendum orci, et laoreet leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque nulla velit, hendrerit in imperdiet at, semper sit amet mauris. Curabitur sed sollicitudin purus.
+</p>
+<p>
+Pellentesque vel risus non risus iaculis ornare. Quisque et orci justo. Proin tempor elementum lobortis. Fusce ullamcorper, lectus a ultricies molestie, libero metus vestibulum tortor, et lacinia ante ligula sed dui. Maecenas mollis egestas augue, ac mollis justo accumsan nec. Duis feugiat dignissim tortor eget bibendum. Proin id venenatis eros, non vehicula felis. Donec felis elit, tempus ac tellus vitae, lobortis pretium est. Nulla in mi interdum, lobortis erat quis, pellentesque eros. Aenean blandit maximus gravida. Curabitur vitae velit aliquet, congue orci ut, auctor mauris. 
+</p>

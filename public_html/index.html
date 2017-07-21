@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jsbcl</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/init.js" type="text/javascript"></script>
+        <link href="css/init.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+ 
+    <script type="text/javascript">
+      /* progress bar */
+      $(document).ready(function(){
+            $("#p").parent("div").css("height", $("#p").css("height")); /* stops the element losing height when fading - can be removed */
+          
+            var myInterval = setInterval(function() {
+                $("#p").css("display", "block");
+                
+                var percent = ( 100 * window.jsDone / window.jsMax );
+                
+                $("#p").css("width", percent+'%');
+
+                if(window.jsDone === window.jsMax){
+                    console.log("done");
+                    $("#p").fadeOut("slow");
+                    clearInterval(myInterval);
+                }
+            },100);
+      })
+
+    </script>
+        <div><div id="p"></div></div>
+        
+        <!-- Serve All Your Static Content Here -->
+        
+        <!--
+        
+        <canvas id="c" width="1920" height="1080"></canvas>
+        
+        -->
+        <div id="container">
+            <div class="ipsum"></div>
+            <blockquote>
+                <strong>Stats:</strong> <br/>
+                3,523 bytes before compression<br/>
+                1,497 bytes after compression<br/>
+                <br/>
+                2026 bytes saving<br/>
+            </blockquote>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+/* init styles */
+html, body{
+    margin: 0px;
+    padding: px;
+    border: none;
+    /*overflow: hidden;*/ /* uncomment for html5 fullscreen canvas with no scrollbars */
+    width: 100%;
+    height: 100%;
+}
+
+/* fullscreen canvas maintain aspect ratio */
+#c{
+    outline: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+
+/* #p is the progress bar */
+#p{
+    background-color: red;
+    display: none;
+    height: 3px;
+}
+
+
+/* code for tests */
+#container{
+    margin: 25px;
+}
