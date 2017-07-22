@@ -35,7 +35,7 @@ window.onload = function(e){
 
         release:    new Array(
             "js/release/app.js.lzma",
-        ),
+        )
                 
     },
     
